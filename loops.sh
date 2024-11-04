@@ -12,5 +12,5 @@ num=5
 while [[ $num -le 5 ]]
 do
     echo "hi $num"
-    num=$num+1
+    num=$((num+1))
 done
